@@ -10,19 +10,19 @@ let variable=false;
 arr.push(5);
 console.log(arr);
 const ground= new Image();
-ground.src= "/img/ground.png";
+ground.src= "img/ground.png";
 
 const snakehead=new Image();
-snakehead.src="/img/snakehead.png";
+snakehead.src="img/snakehead.png";
 
 const snakebody=new Image();
-snakebody.src="/img/snakebody.png";
+snakebody.src="img/snakebody.png";
 
 const snaketail=new Image();
-snaketail.src="/img/snaketail.png";
+snaketail.src="img/snaketail.png";
 
 const food1= new Image();
-food1.src="/img/food.png";
+food1.src="img/food.png";
 
 for(let i=arr.length-1; i>=0; i--){
     console.log(arr[i]);
